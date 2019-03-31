@@ -2,10 +2,8 @@ $(function() {
 
 	//Preloader
 	$(window).on('load', function () {
-    var $preloader = $('#p_prldr');
-    //     $svg_anm   = $preloader.find('.svg_anm');
-    // $svg_anm.fadeOut();
-    $preloader.delay(500).fadeOut('slow');
+    var $preloader = $('#preloader');
+    $preloader.fadeOut('slow');
   });
 
 
@@ -21,6 +19,7 @@ $(function() {
 	// 			}
 	// 			$('header').css('background-image', 'url(img/Header/pic' + currentBackgroundImageNumber + '.jpg)');
 	// 		}, t);
+
   //Random (for start page):
   var startPage =  document.querySelector('header');
   function randomInteger(min, max) {
@@ -66,7 +65,7 @@ $(function() {
 	  this.classList.toggle("is-active");
 	  menu.slideToggle();
 	}, false);
-	$(window).resize(function(){ //Для того що меню було видно кои назад збільшуєш вікно, бо так воно не відображається.
+	$(window).resize(function() {
 		var w = $(window).width();
 		if(w > 320 && menu.is(':hidden')) {
 			menu.removeAttr('style');
@@ -84,7 +83,6 @@ $(function() {
 
 
 
-
 	// Mix it up
 	var mixer = mixitup('.cont', {
       // selectors: {
@@ -97,19 +95,10 @@ $(function() {
 
 
 
-  //Колбек на кнопку відправки форми
+  //Callback on send email button:
   document.querySelector('form .butt').addEventListener('click', function(event) {
   	event.preventDefault();
   	alert('Sorry, unable to send request.');
   });
-
-
-
-	//WOW
-	new WOW().init({
-		// offset: 200,
-		mobile: false
-	});
-
 
 });
