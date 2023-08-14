@@ -1,16 +1,20 @@
 {
   "files": {
     "main.css": "./static/css/main.2ee67f23.css",
-    "main.js": "./static/js/main.24e89a16.js",
+    "main.js": "./static/js/main.53e40757.js",
+    "static/media/imagery.jpg": "./static/media/imagery.1be51cff91eceef0d052.jpg",
     "static/media/me.jpg": "./static/media/me.58825ae3b42aac4966f3.jpg",
+    "static/media/js-clean-code.png": "./static/media/js-clean-code.b722812f6b23336ed04e.png",
+    "static/media/js-questions.png": "./static/media/js-questions.4bcc726858c0e386a834.png",
     "static/media/js-algorithms.webp": "./static/media/js-algorithms.3cf39d63a2a18383986a.webp",
     "static/media/chrome-extensions.webp": "./static/media/chrome-extensions.843677fdd6b802edf7e2.webp",
+    "static/media/telegram-gpt.avif": "./static/media/telegram-gpt.7ec2d7361fa86ac60477.avif",
     "index.html": "./index.html",
     "main.2ee67f23.css.map": "./static/css/main.2ee67f23.css.map",
-    "main.24e89a16.js.map": "./static/js/main.24e89a16.js.map"
+    "main.53e40757.js.map": "./static/js/main.53e40757.js.map"
   },
   "entrypoints": [
     "static/css/main.2ee67f23.css",
-    "static/js/main.24e89a16.js"
+    "static/js/main.53e40757.js"
   ]
 }
