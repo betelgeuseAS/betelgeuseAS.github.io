@@ -1,3 +1,10 @@
 # betelgeuseAS.github.io
 
-This repository contains files used to create my website and another pages, you can see the website [here](https://betelgeuseas.github.io/me-dev/).
+This repository contains various public sites:
+* My portfolio with up-to-date data - [MeDev](https://betelgeuseas.github.io/me-dev/)
+* For extensions, it will be shown when installing and uninstalling my extension - [Extensions](https://betelgeuseas.github.io/extensions/)
+
+### Access to websites
+
+Enter the address using the template - `(https://betelgeuseas.github.io/{{name}}`.  
+Where `{{name}}` - the name of the folder that is in the root of this derectory.
