@@ -6,5 +6,5 @@ This repository contains various public sites:
 
 ### Access to websites
 
-Enter the address using the template - `(https://betelgeuseas.github.io/{{name}}`.  
+Enter the address using the template - `https://betelgeuseas.github.io/{{name}}`.  
 Where `{{name}}` - the name of the folder that is in the root of this derectory.
